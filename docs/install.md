@@ -16,8 +16,16 @@ touch boot/ssh
 * upgrade
 
 
-## Nom 
+## Noms
 * cm-pi-be-1.local
+* cm-pi-be-2.local
+* cm-pi-be-3.local
+* cm-pi-be-4.local
+* cm-pi-be-5.local
+* cm-pi-be-6.local
+* cm-pi-be-7.local
+* cm-pi-be-8.local
+* cm-pi-be-9.local
 
 ## Poe Fan Curve
 
