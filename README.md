@@ -10,6 +10,10 @@
 * Utilise le POE pour alimenter les micro ordinateurs ainsi que les écrans 
 * L'ensemble du matériel est monté sur des rails dins afin de permettre une reconfiguration aisé 
 
+### Installation 
+
+* [installation](docs/install.md)
+
 ### Flux de signaux
 
 ![flux de signaux](docs/flux_de_signaux.png)
