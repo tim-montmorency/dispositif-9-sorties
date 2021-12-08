@@ -1,6 +1,10 @@
 # dispositif-9-sorties
 
-* Système de diffusion mozaique à 9 écrans (9x 720p) 
+* Système de diffusion mozaique 9 écrans (9x 720p) 
+* à partir d'un flux réseau NDI, sépare un 4k en 9 flux indépendant
+
+## 
+* La syncronisation pourrait être plus raffiné et l
 
 ## Fonctionnement 
 
@@ -18,7 +22,7 @@
 
 ![flux de signaux](docs/flux_de_signaux.png)
 
-## Calibration 
+## image de référence (Calibration) 
 
 ### Calibration 9 écrans
 
@@ -27,6 +31,14 @@
 ### Calibration 1 écran
 
 ![calibration 1 signal ](calibration/720p_1280x720.png)
+
+### Format de lecture 
+
+#### H.264 
+via ffmpeg 
+```
+ffmpeg -i input.mov -c:v libx264 -preset slow -pix_fmt yuv420p -crf 22 -c:a copy output.mp4
+```
 
 ## Assemblage 
 
@@ -53,7 +65,7 @@
 
 ### Raspberry
 
-#### à partir de raspberry pi OS Debian Buster
+#### à partir de raspberry pi OS [Debian] [Buster] ou [Bulleyes]
 
 suivre ces instructions : https://dicaffeine.com/raspbian
 
